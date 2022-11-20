@@ -84,120 +84,45 @@
           </div>
         </header>
 
-        <section class="hero-intro">
-          <div class="container">
-            <h1>Start Your Startup Journey</h1>
-            <p class="hero-intro-desc">Choose the best option for you.</p>
-          </div>
-        </section>
-
-        <section class="startup-sign-up">
-          <div class="container">
-            <div class="startup-join">
-              <h3>Join StartupCity to</h3>
-              <p class="startup-join-desc">
-                Unlock Access to startup stories, filters, and business ideas
-                database
-              </p>
-              <ul class="startup-join-list">
-                <li class="startup-join-item">
-                  <img src="images/icons/icon-coin.svg" alt="coin icon" />
-                  <p class="startup-join-item-text">
-                    <span>New Full version</span> Startup trends report each
-                    month
-                  </p>
-                </li>
-
-                <li class="startup-join-item">
-                  <img src="images/icons/icon-coin.svg" alt="coin icon" />
-                  <p class="startup-join-item-text">
-                    Unlock <span>1.000+ startup stories</span> (*)
-                  </p>
-                </li>
-
-                <li class="startup-join-item">
-                  <img src="images/icons/icon-coin.svg" alt="coin icon" />
-                  <p class="startup-join-item-text">
-                    Unlock <span>500+ business ideas</span> (*)
-                  </p>
-                </li>
-
-                <li class="startup-join-item">
-                  <img src="images/icons/icon-coin.svg" alt="coin icon" />
-                  <p class="startup-join-item-text">
-                    Unlock <span>200+ growth playbooks</span> (*)
-                  </p>
-                </li>
-
-                <li class="startup-join-item">
-                  <img src="images/icons/icon-coin.svg" alt="coin icon" />
-                  <p class="startup-join-item-text">
-                    Filter, search & sort full database (*)
-                  </p>
-                </li>
-              </ul>
-              <p class="startup-join-note">(*) Only Premium Membership</p>
+        <section class="sign-in-box">
+          <form action="" class="sign-in">
+            <h1>Signin</h1>
+            <p class="sign-in-desc">
+              Connect your account with Google (business account preferred)<br />
+              or Facebook:
+            </p>
+            <div class="sign-up-btn-wrapper sign-in-btn-wrapper">
+              <button class="sign-up-google sign-in-google">
+                <img src="images/icons/icon-google.svg" alt="google icon" />
+                <span>Signin with Google</span>
+              </button>
+              <button class="sign-up-facebook sign-in-facebook">
+                <img
+                  src="images/icons/icon-facebook-2.svg"
+                  alt="facebook icon"
+                />
+                <span>Signin with Facebook</span>
+              </button>
             </div>
-
-            <form action="" class="sign-up">
-              <h2>Sign up to StartupCity & start your startup journey</h2>
-
-              <div class="sign-up-btn-wrapper">
-                <button class="sign-up-google">
-                  <img src="images/icons/icon-google.svg" alt="google icon" />
-                  <span>Signup with Google</span>
-                </button>
-                <button class="sign-up-facebook">
-                  <img
-                    src="images/icons/icon-facebook-2.svg"
-                    alt="facebook icon"
-                  />
-                  <span>Signup with Facebook</span>
-                </button>
-              </div>
-
-              <div class="sign-up-input">
-                <div class="sign-up-name">
-                  <input type="text" placeholder="First Name" id="first-name" />
-                  <input type="text" placeholder="Last Name" id="last-name" />
-                </div>
-                <input type="text" placeholder="Email Address" id="email" />
-                <input type="password" placeholder="Password" id="password" />
-              </div>
-
-              <div class="sign-up-dropdown">
-                <div class="sign-up-dropdown-select">
-                  <span>Country</span>
-                  <img
-                    src="images/icons/icon-arrow-down.svg"
-                    alt="arrow down icon"
-                  />
-                </div>
-
-                <div class="sign-up-dropdown-list">
-                  <div class="sign-up-dropdown-item">Country 01</div>
-                  <div class="sign-up-dropdown-item">Country 02</div>
-                </div>
-              </div>
-
-              <label class="sign-up-terms">
-                Creating an account means you’re okay with our
-                <span style="color: #069bf7">Terms of Service</span>
-                and <span style="color: #9747ff">Privicy Policy</span>
-                <input type="checkbox" />
-                <span class="checkmark"></span>
-              </label>
-
-              <div class="sign-up-btn-account-wrapper">
-                <button type="submit" class="sign-up-submit">
-                  Create my account
-                </button>
-                <p class="sign-up-back">
-                  Already a member? <a href="#">Log in</a>
-                </p>
-              </div>
-            </form>
-          </div>
+            <span class="sign-in-or">- OR -</span>
+            <input
+              type="text"
+              placeholder="Email Address"
+              id="email"
+              class="email"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              id="password"
+              class="password"
+            />
+            <p class="sign-in-forgot">
+              Forgot your password? <a href="#">Retrieve</a>
+            </p>
+            <p class="sign-in-not">Not Signed Up? <a href="#">Sign Up</a></p>
+            <button type="submit" class="sign-in-btn">SIGN IN</button>
+          </form>
         </section>
 
         <footer class="footer">
